@@ -18,6 +18,9 @@ console.log(b);
 console.log(c);
 
 
+
+
+
 a=6;
 console.log(a);
 b=9;
@@ -39,3 +42,48 @@ console.log(typeof a);
 
 a=1.5;
 console.log(typeof a);
+
+
+d=55;
+a=a+d;
+console.log(a);
+
+
+a="60"
+
+d=55;
+d=String(d);
+a=Number(a);
+a=a+d;
+console.log(a);
+
+a="aravind";
+console.log(a+":"+typeof a);
+
+a="true";
+console.log(a+":"+typeof a);
+
+
+a=[10,15,16];
+console.log(typeof a);
+
+a=[10,15,16];
+console.log(a+":"+typeof a);
+
+
+
+a={fname:"arav",gender:"male"};
+console.log(typeof a);
+
+
+
+a=20;
+console.log(typeof a);
+a=a.toString();
+console.log(typeof a);
+
+
+a=parseInt;
+console.log(a);
+console.log(typeof a);
+
