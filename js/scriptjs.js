@@ -83,7 +83,18 @@ a=a.toString();
 console.log(typeof a);
 
 
-a=parseInt;
-console.log(a);
-console.log(typeof a);
+
+// conditional statements
+// if condition
+function gradeChecking(m){
+    if(35>m && m!=null)
+{
+console.log("no grade");
+console.log("fail");
+}
+}
+gradeChecking(45);
+
+
+
 
