@@ -86,14 +86,125 @@ console.log(typeof a);
 
 // conditional statements
 // if condition
-function gradeChecking(m){
-    if(35>m && m!=null)
-{
-console.log("no grade");
-console.log("fail");
-}
-}
-gradeChecking(45);
+
+function gradechecking(m){
+    if(80>m && m!=null)
+    {
+        console.log("no grade");
+        console.log("fail");
+    }
+    }
+   
+
+
+    // if else condition
+     function STUDENTMARK(m)
+     {
+        if(m!=null)
+        {
+            if(35>m)
+            {
+                console.log("fail");
+            }
+            else{
+                console.log("pass");
+            }
+        }
+        
+        }
+
+        STUDENTMARK(45);
+
+
+
+
+
+        
+
+
+
+
+        function college(m)
+        {
+           if(m!=null)
+           {
+            if(90<m)
+            {
+                console.log("pass");
+                console.log("degree holder");
+            }
+            else
+            {
+                console.log("fail");
+                console.log("arrear");
+            }
+           }
+        }
+                 college(91.5);
+
+
+
+
+
+
+        // nested if  else condition 
+        
+        function webportal(a)
+        {
+           if(a!=null)
+          {
+              if(35>a)
+              {
+                  console.log("fail");
+                  console.log("no grade");
+              }
+              else if(40<=a && a<=60)
+                  {
+                      console.log("pass");
+                      console.log("grade C");
+                  }
+              else if(60<=a && a<=70)
+                      {
+                          console.log("pass");
+                          console.log("grade B");
+                      }
+              else if(80<=a && 90>=a)
+                          {
+                              console.log("pass");
+                              console.log("grade A");
+
+                          }
+              else if(90<a && 100>=a)
+                          {
+                              console.log("pass");
+                              console.log("grade O");
+                          
+                          }
+                        }
+                    }
+                      
+                      
+                      webportal(81);
+                    
+                
+          
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
 
 
 
